@@ -1,0 +1,130 @@
+/* consistent layout styles*/
+
+
+.label{
+	font-family: helvetica, tahoma, sans-serif;
+	color: #5c5c5c;
+	float:left;
+}
+
+p,h4{
+
+	color: #5c5c5c;
+	font-family: helvetica, tahoma, sans-serif;
+}
+
+.required{
+	color:#ff0000;	
+}
+
+.wrapper{
+	width:99%;
+
+}
+
+.container {
+width: 40em;
+min-height: 10em;
+height:auto;
+display: block;
+background: #e5e5e5;
+margin: 2% 30% 2% 30%;
+}
+
+#form_container input#carl{
+	background: url('submit-button.png');
+	text-indent: -9999px;
+	width:235px;
+	height:40px;
+	border:none;
+
+}
+
+
+.item{
+box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+width:33%;
+float:left;
+}
+
+#textarea_item {
+padding: 0 0 15% 0 !important;
+}
+
+.label{
+
+	padding-left: 10%;
+}
+
+.form_item{
+	padding: 0 0 10% 0;
+}
+
+input{
+	width:12em;
+	font-size: 1.1em;
+}
+
+select{
+	font-size:1.2em;
+	width:12em;
+}
+
+#selector_box {
+padding: 5% 32%;
+}
+
+#share_refer p {
+width: 90%;
+padding-left: 5%;
+text-align: justify;
+}
+
+.container h4 {
+padding: 2% 2%;
+}
+
+textarea{
+	resize:none;
+}
+
+.error{
+	color: #ff0000;
+	font-size: 8px;
+}
+
+#email-signup{
+	float: left;
+	margin: 1em 0 0 3.2em;
+	width: 1em;
+}
+
+#email-label{
+	padding-left: 30px !important;
+	display: block;
+	margin-top: 10px;
+	width: 66%;
+}
+
+#question_box{
+	display: block;
+	float: none;
+	width: 66%;
+	padding-bottom: 10px;
+}
+
+#comment_item{
+	padding-left:100px;
+}
+
+#legend{
+	padding: 0 18em;
+}
+
+#legend p{
+	display:inline;
+}
+
+
